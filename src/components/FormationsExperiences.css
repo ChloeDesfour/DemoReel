@@ -1,0 +1,33 @@
+.grid__item,
+.grid__item p {    
+  margin-bottom: var(--spacing-1)
+}
+.grid__date {  
+  font-weight: 500;
+}
+.grid__title {
+  margin-bottom: 0;
+}
+.grid__location {
+  font-weight: 300;
+  color:var(--date-color);
+}
+.dark .grid__location {
+  
+  color: var(--dark-date-color);
+}
+.grid__mission {
+  margin-bottom:var(--spacing-1);
+}
+.grid__subtitle {  
+  color:var(--text-color);
+  font-weight: 500;
+}
+.dark .grid__subtitle {  
+
+  color: var(--dark-text-color);
+ 
+}
+.grid__item__text {  
+  font-size:14px;
+}
